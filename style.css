@@ -32,7 +32,6 @@ li a:hover:not(.active) {
 	color: #dcdcdc;
 }
 .content {
-	margin-left: 15%;
 	padding: 5px 16px;
 	height: 100vh;
 }
@@ -41,6 +40,7 @@ li a:hover:not(.active) {
 	padding-top: 0.2px;
 	padding-bottom: 0.2px;
 	border-radius: 10px;
+	margin-left: 10%
 }
 .header img {
 	margin-left: 47%;
@@ -54,6 +54,7 @@ li a:hover:not(.active) {
 	padding-bottom: 0.2px;
 	border-radius: 10px;
 	text-align: center;
+	margin-left: 10%
 }
 .button {
 	background-color: #dcdcdc;
