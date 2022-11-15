@@ -42,6 +42,10 @@ li a:hover:not(.active) {
 	padding-bottom: 0.2px;
 	border-radius: 10px;
 }
+.header img {
+	left: 50%
+	border-radius: 360px;
+}
 .info {
 	background-color: #222121;
 	margin-top: 5px;
