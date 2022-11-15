@@ -1,5 +1,66 @@
-.main {
-  background-color: black;
-  color: gainsboro;
-  font-family: Verdana;
+body {
+	background-color: #111111;
+	color: #dcdcdc;
+	margin: 0;
+	font-family: 'Cabin';
+}
+ul {
+	list-style-type: none;
+	margin: 5;
+	padding: 5;
+	width: 25vh;
+	background-color: #222222;
+	position: fixed;
+	height: 100%;
+	overflow: auto;
+	border-radius: 10px;
+}
+li a {
+	display: block;
+	color: #000;
+	padding: 8px 16px;
+	text-decoration: none;
+	background-color: #dcdcdc;
+	border-radius: 10px;
+}
+li a.active {
+	background-color: #660033;
+	color: #dcdcdc;
+}
+li a:hover:not(.active) {
+	background-color: #555;
+	color: #dcdcdc;
+}
+.content {
+	margin-left: 15%;
+	padding: 5px 16px;
+	height: 100vh;
+}
+.header {
+	background-color: #222121;
+	padding-top: 0.2px;
+	padding-bottom: 0.2px;
+	border-radius: 10px;
+}
+.info {
+	background-color: #222121;
+	margin-top: 5px;
+	padding-top: 0.2px;
+	padding-bottom: 0.2px;
+	border-radius: 10px;
+	text-align: center;
+}
+.button {
+	background-color: #dcdcdc;
+	color: #111111;
+	margin-top: 5px;
+	padding: 15px 45%;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	border-radius: 10px;
+}
+.button:hover {
+	background-color: #660033;
+	color: #dcdcdc;
 }
